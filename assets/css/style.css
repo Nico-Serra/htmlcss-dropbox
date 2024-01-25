@@ -11,10 +11,11 @@
     --drop-dark:rgba(0, 0, 0, 1);
     --drop-light: rgba(245, 245, 245, 1);
     --drop-succes:rgba(0, 97, 255, 1);
+    --drop-secondary: rgba(98, 18, 56, 1);
 }
 
 body{
-    background-color: black;
+    background-color: green;
 }
 
 .debug header{
@@ -48,6 +49,11 @@ body{
     max-width: 1000px;
 }
 
+.top{
+    border-bottom: 1px solid;
+}
+
+/* #endregion Common */
 
 /* #region Utilities */
 
@@ -64,7 +70,16 @@ body{
  }
 
  .col-4{
-    width: calc((100%/12)*3);
+    width: calc((100%/12)*4);
+ }
+
+ .card{
+    border: 1px solid;
+    margin-bottom: 2rem;
+ }
+
+ .purple{
+    color: var(--drop-secondary);
  }
 
 /* #region Header */
@@ -79,12 +94,21 @@ body{
 
 .row{
     display: flex;
-    flex-wrap: wrap;
     gap: 0.5rem;
-    justify-content: space-between;
 }
 
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.faq{
+    background-color: var(--drop-primary);
+}
+
+.border-bottom{
+    border-bottom: 0.5px solid black;
+}
 /* #end#region main */
 
 /* #region footer */
