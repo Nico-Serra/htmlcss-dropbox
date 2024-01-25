@@ -31,6 +31,10 @@ body{
     color: white;
 }
 
+.debug footer{
+    height: 500px;
+}
+
 .container-large{
     width: 95%;
     margin: auto;
@@ -82,6 +86,8 @@ body{
     color: var(--drop-secondary);
  }
 
+/* #endregion Utilities */
+
 /* #region Header */
 
 /* #endregion Header */
@@ -107,11 +113,16 @@ body{
 }
 
 .border-bottom{
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid rgb(255, 255, 255);
 }
 /* #end#region main */
 
 /* #region footer */
+
+footer{
+    background-color: var(--drop-dark);
+    color: var(--drop-light);
+}
 
 /* #endregion footer */
 
