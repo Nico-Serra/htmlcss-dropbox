@@ -1,86 +1,87 @@
 /* #region Common */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* color palette */
-:root{
-    --drop-primary:rgba(180, 208, 231, 1);
-    --drop-dark:rgba(0, 0, 0, 1);
+:root {
+    --drop-primary: rgba(180, 208, 231, 1);
+    --drop-dark: rgba(0, 0, 0, 1);
     --drop-light: rgba(245, 245, 245, 1);
-    --drop-succes:rgba(0, 97, 255, 1);
+    --drop-succes: rgba(0, 97, 255, 1);
     --drop-secondary: rgba(98, 18, 56, 1);
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.debug header{
+.debug header {
     height: 50px;
     background-color: red;
 }
 
-.debug .jumbotron{
+.debug .jumbotron {
     height: 500px;
 }
 
-.debug section{
+.debug section {
     color: white;
 }
 
-.debug footer{
+.debug footer {
     height: 500px;
 }
 
-.container-large{
+.container-large {
     width: 95%;
     margin: auto;
     max-width: 1800px;
 }
 
-.container{
+.container {
     width: 70%;
     margin: auto;
     max-width: 1400px;
 }
 
-.container-small{
+.container-small {
     width: 60%;
     margin: auto;
     max-width: 1200px;
 }
 
-.top{
+.top {
     border-bottom: 0.5px solid lightgray;
     padding: 0.8rem 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-p{
+p {
     padding: 1rem 0;
 }
 
-h2{
+h2 {
     padding: 2rem 0;
     font-size: 2rem;
 }
 
-h3{
+h3 {
     padding: 2rem 0;
 }
 
-strong{
+strong {
     display: block;
     font-size: 0.8rem;
 }
 
-hr{
+hr {
     margin-right: 75%;
 }
 
@@ -88,58 +89,73 @@ hr{
 
 /* #region Utilities */
 
- .d-flex{
+.d-flex {
     display: flex;
     justify-content: space-between;
- }
+}
 
- .btn{
+.btn {
     border-style: none;
     background-color: var(--drop-succes);
     color: var(--drop-light);
     padding: 0.4rem 1rem;
- }
+}
 
- .col-4{
+.btn-2{
+    
+    background-color: var(--drop-light);
+    padding: 0.4rem 1rem;
+    border: 1px solid;
+}
+
+.col-4 {
     width: calc((100%/12)*4);
- }
+}
 
- .card{
+.card {
     border: 0.5px solid lightgray;
     margin-bottom: 2rem;
-    
- }
 
-.top{
+}
+
+.top {
     text-align: center;
 }
 
- .purple{
+.purple {
     color: var(--drop-secondary);
- }
+}
 
- .btn-large{
+.btn-large {
     width: 100%;
     padding: 0.5rem 1rem;
- }
+    border-style: none;
+    background-color: var(--drop-succes);
+    color: var(--drop-light);
+}
 
- .padding1{
+.padding1 {
     padding: 1.5rem 0;
- }
+}
 
- .padding-bottom{
+.padding-bottom {
     padding-bottom: 2rem;
- }
+}
+
+.width-60 {
+    width: 60%;
+}
+
 
 /* #endregion Utilities */
 
 /* #region Header */
 
-header{
+header {
     padding: 1rem 0;
 }
 
-li>a{
+li>a {
     text-decoration: none;
     color: black;
     padding: 0 1rem;
@@ -150,96 +166,131 @@ li>a{
 
 /* #region main */
 
- /* #region jumbotron */
+/* #region jumbotron */
 
- .jumbotron{
+.jumbotron {
     background-color: var(--drop-primary);
     padding-top: 2rem;
- }
+}
 
-.screen{
+.screen {
     width: 60%;
 }
 
-.screen>img{
+.screen>img {
     width: 100%;
     padding-top: 1rem;
     margin-bottom: -5rem;
 }
 
-.container>h1{
+.container>h1 {
     font-size: 50px;
     padding-bottom: 1rem;
 }
 
-.text{
+.text {
     width: 40%;
 }
 
-.text>i{
+.text>i {
     font-size: 36px;
 }
 
 /* #endregion jumbotron */
 
- /* #region business */
+/* #region business */
 
-.business{
+.business {
     padding-top: 5rem;
 }
 
-.radio{
+.radio {
     padding-right: 2rem;
 }
 
-.card>div{
-    padding: 0 1rem;
+.card>div {
+    padding: 0.8rem 1rem;
 }
 
-div>span{
+div>span {
     color: gray;
 }
 
-.card>p{
+.card>p {
     padding: 1rem 0;
 }
 
- .row{
+.d-flex>h3 {
+    padding: 1.5rem 0;
+}
+
+.d-flex>button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.row {
     padding: 2rem 0;
     display: flex;
     gap: 0.5rem;
- }
+}
 
- .check{
+.check {
     color: var(--drop-succes);
     font-weight: bold;
- }
+}
 
-  /* #endregion business */
+/* #endregion business */
 
- .row-2{
+/* #region partner */
+
+.partner{
+    padding: 4rem 0;
+}
+
+.partner>.d-flex{
+    gap: 1rem;
+}
+
+.partner_img {
+    width: 60%;
+}
+
+.partner_img>img{
+    width: 100%;
+}
+
+.contact {
+    width: 40%;
+}
+
+/* #endregion partner */
+
+.row-2 {
     display: flex;
     flex-wrap: wrap;
- }
+}
 
- .faq{
+.faq {
     background-color: var(--drop-primary);
- }
+}
 
- .border-bottom{
+.border-bottom {
     border-bottom: 0.5px solid rgb(255, 255, 255);
- }
+}
+
+.contact>button{
+    margin-top: 1rem;
+}
 
 /* #endregion main */
 
 /* #region footer */
 
-footer{
+footer {
     background-color: var(--drop-dark);
     color: var(--drop-light);
 }
 
 /* #endregion footer */
-
-
-   
