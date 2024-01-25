@@ -48,30 +48,41 @@ body{
 }
 
 .container-small{
-    width: 50%;
+    width: 60%;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .top{
-    border-bottom: 1px solid;
+    border-bottom: 0.5px solid lightgray;
+    padding: 0.8rem 0;
 }
 
 ul{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    padding: 0 1rem;
-    font-size: 0.8rem;
-}
-
 p{
     padding: 1rem 0;
 }
 
+h2{
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+h3{
+    padding: 2rem 0;
+}
+
+strong{
+    display: block;
+    font-size: 0.8rem;
+}
+
+hr{
+    margin-right: 75%;
+}
 
 /* #endregion Common */
 
@@ -94,12 +105,30 @@ p{
  }
 
  .card{
-    border: 1px solid;
+    border: 0.5px solid lightgray;
     margin-bottom: 2rem;
+    
  }
+
+.top{
+    text-align: center;
+}
 
  .purple{
     color: var(--drop-secondary);
+ }
+
+ .btn-large{
+    width: 100%;
+    padding: 0.5rem 1rem;
+ }
+
+ .padding1{
+    padding: 1.5rem 0;
+ }
+
+ .padding-bottom{
+    padding-bottom: 2rem;
  }
 
 /* #endregion Utilities */
@@ -110,11 +139,18 @@ header{
     padding: 1rem 0;
 }
 
+li>a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
+    font-size: 0.8rem;
+}
+
 /* #endregion Header */
 
 /* #region main */
 
-/* #region jumbotron */
+ /* #region jumbotron */
 
  .jumbotron{
     background-color: var(--drop-primary);
@@ -146,14 +182,40 @@ header{
 
 /* #endregion jumbotron */
 
+ /* #region business */
+
 .business{
     padding-top: 5rem;
 }
 
+.radio{
+    padding-right: 2rem;
+}
+
+.card>div{
+    padding: 0 1rem;
+}
+
+div>span{
+    color: gray;
+}
+
+.card>p{
+    padding: 1rem 0;
+}
+
  .row{
+    padding: 2rem 0;
     display: flex;
     gap: 0.5rem;
  }
+
+ .check{
+    color: var(--drop-succes);
+    font-weight: bold;
+ }
+
+  /* #endregion business */
 
  .row-2{
     display: flex;
