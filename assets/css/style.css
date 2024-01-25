@@ -68,6 +68,11 @@ a{
     font-size: 0.8rem;
 }
 
+p{
+    padding: 1rem 0;
+}
+
+
 /* #endregion Common */
 
 /* #region Utilities */
@@ -81,7 +86,7 @@ a{
     border-style: none;
     background-color: var(--drop-succes);
     color: var(--drop-light);
-    padding: 0.3rem 0.5rem;
+    padding: 0.4rem 1rem;
  }
 
  .col-4{
@@ -109,9 +114,41 @@ header{
 
 /* #region main */
 
+/* #region jumbotron */
+
  .jumbotron{
     background-color: var(--drop-primary);
+    padding-top: 2rem;
  }
+
+.screen{
+    width: 60%;
+}
+
+.screen>img{
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: -5rem;
+}
+
+.container>h1{
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+.text{
+    width: 40%;
+}
+
+.text>i{
+    font-size: 36px;
+}
+
+/* #endregion jumbotron */
+
+.business{
+    padding-top: 5rem;
+}
 
  .row{
     display: flex;
