@@ -110,6 +110,8 @@ hr {
 
 .col-4 {
     width: calc((100%/12)*4);
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
 .card {
@@ -233,7 +235,8 @@ div>span {
 .row {
     padding: 2rem 0;
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
+    justify-content: space-between;
 }
 
 .check {
@@ -261,6 +264,11 @@ div>span {
     width: 100%;
 }
 
+.negative{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
 .contact {
     width: 40%;
 }
@@ -270,6 +278,12 @@ div>span {
 .row-2 {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.col-4>img{
+    width: 100%;
 }
 
 .faq {
