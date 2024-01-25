@@ -92,6 +92,7 @@ hr {
 .d-flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -110,8 +111,8 @@ hr {
 
 .col-4 {
     width: calc((100%/12)*4);
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
 }
 
 .card {
@@ -235,7 +236,7 @@ div>span {
 .row {
     padding: 2rem 0;
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: space-between;
 }
 
@@ -278,12 +279,37 @@ div>span {
 .row-2 {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: space-between;
 }
 
 .col-4>img{
     width: 100%;
+}
+
+.operation{
+    padding-bottom: 2rem;
+}
+
+
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.row-3>.col-4>img{
+    width: 50%;
+}
+
+.row-3>.col-4{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.heigth-20{
+    height: 10%;
 }
 
 .faq {
