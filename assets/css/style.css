@@ -1,9 +1,73 @@
+/* #region Common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* color palette */
+:root{
+    --drop-primary:rgba(180, 208, 231, 1);
+    --drop-dark:rgba(0, 0, 0, 1);
+    --drop-light: rgba(245, 245, 245, 1);
+    --drop-succes:rgba(0, 97, 255, 1);
+}
 
 body{
     background-color: black;
 }
+
+.debug header{
+    height: 50px;
+    background-color: red;
+}
+
+.debug .jumbotron{
+    height: 500px;
+}
+
+.container-large{
+    width: 95%;
+    margin: auto;
+    max-width: 1800px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    max-width: 1400px;
+}
+
+/* #region Utilities */
+
+ .d-flex{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .btn{
+    border-style: none;
+    background-color: var(--drop-succes);
+    color: var(--drop-light);
+    padding: 0.3rem 0.5rem;
+ }
+
+/* #region Header */
+
+/* #endregion Header */
+
+/* #region main */
+
+.jumbotron{
+    background-color: var(--drop-primary);
+}
+
+
+/* #end#region main */
+
+/* #region footer */
+
+/* #endregion footer */
+
+
+   
