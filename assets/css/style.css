@@ -72,7 +72,7 @@ h2 {
     font-size: 2rem;
 }
 
-h3 {
+h3 , h4 {
     padding: 2rem 0;
 }
 
@@ -296,6 +296,8 @@ div>span {
 }
 
 
+/* #region container x-large */
+
 .row-3 {
     display: flex;
     flex-wrap: wrap;
@@ -352,7 +354,6 @@ div>span {
     background-color:rgba(180, 208, 231, 1) ;
 }
 
-
 .center{
     padding: 0 2rem ;
     
@@ -371,6 +372,12 @@ div>span {
     width: 50%;
 }
 
+/* #endregion container x-large */
+
+.faq{
+    padding-bottom: 5rem;
+}
+
 .free {
     background-color: var(--drop-primary);
     padding: 2rem 0;
@@ -384,7 +391,7 @@ div>span {
 }
 
 .border-bottom {
-    border-bottom: 0.5px solid rgb(255, 255, 255);
+    border-bottom: 0.5px solid lightgray;
 }
 
 .contact>button{
@@ -398,6 +405,18 @@ div>span {
 footer {
     background-color: var(--drop-dark);
     color: var(--drop-light);
+}
+
+li{
+    padding: 0.5rem 0;
+}
+
+.top-footer > div{
+    padding-bottom: 5rem;
+}
+
+.bottom-footer{
+    padding: 3rem 0;
 }
 
 /* #endregion footer */
