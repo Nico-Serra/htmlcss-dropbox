@@ -471,6 +471,8 @@ li>a:hover {
     border-bottom: 1px solid black;
 }
 
+
+/* bonus */
 .btn:hover {
     opacity: 75%;
     border-bottom: 0;
@@ -504,4 +506,13 @@ li>a:hover {
 .subnavbtn{
     border-style: none;
     background-color: white;
+}
+
+.lorem{
+    display: none;
+    padding: 0;
+}
+
+.accordion:hover .lorem{
+    display: block;
 }
