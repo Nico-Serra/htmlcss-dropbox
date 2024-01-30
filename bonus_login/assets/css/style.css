@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#site_header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav{
+    padding: 0.8rem;
+    border-bottom: 0.5px solid lightgray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    padding-right: 1rem;
+}
+
+.container{
+    margin: auto;
+    width: 25%;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+h2{
+    font-weight: 500;
+    padding-top: 3rem;
+}
+
+
+
+.login{
+    width: 100%;
+    border: 0.5px solid lightgray;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.or{
+    display: flex;
+}
+
+hr{
+    color: lightgray;
+}
+
+.row{
+    display: flex;
+    text-align: center;
+    position: relative;
+    padding: 1rem 0;
+}
+
+.col-4{
+    width: calc((100% / 12)*4);
+    position: relative;
+}
+
+.col-4>span{
+    position: absolute;
+    top: -10px;
+    left: 20%;
+}
+
+.text>span{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+[type="text"]{
+    width: 100%;
+    border: 1px solid lightgray;
+    min-height: 40px;
+    
+}
+
+.write{
+    padding-bottom: 2rem;
+}
+
+.btn{
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    
+}
+
+.btn>a{
+    color: white;
+}
+
+.footer_top{
+    width: 50%;
+    margin-left: 5% ;
+    padding-bottom: 3rem;
+}
+
+ul{
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+li{
+    font-size: 0.8rem;
+    flex-grow: 1;
+    padding: 2rem 0;
+}
+
+li:first-child{
+    border-bottom: 1px solid gray;
+}
